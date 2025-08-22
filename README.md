@@ -19,7 +19,7 @@ L’idée : transformer votre appartement en “hôtel” avec une page d’avis
 
 ### 1. Cloner le projet  
 ```bash
-git clone https://github.com/votre-pseudo/tripote-visor.git
+git clone https://github.com/VUYCharles/tripote-visor.git
 cd tripote-visor
 ```
 ### 2. Créer un environnement virtuel (optionnel mais recommandé)
