@@ -1,4 +1,5 @@
 # Tripote Visor
+![Rendu](tripote_visor.jpeg)
 
 Un projet parodique de **TripAdvisor en local**, pensé pour amuser vos invités.  
 L’idée : transformer votre appartement en “hôtel” avec une page d’avis où vos amis peuvent poster leurs commentaires, photos et notes comme s’ils étaient sur un vrai site de voyage.
