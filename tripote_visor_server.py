@@ -1050,7 +1050,7 @@ def index():
 
     # Obtenir l'adresse IP locale correcte
     ip_address = get_local_ip()
-    port = 5000
+    port = os.environ.get('PORT', 3000)
 
     server_url = f"http://{ip_address}:{port}"
     qr_code_data = generate_qr_code(server_url)
@@ -1099,7 +1099,7 @@ def add_review():
 if __name__ == '__main__':
     # Obtenir l'adresse IP locale correcte
     ip_address = get_local_ip()
-    port = 5000
+    port = os.environ.get('PORT', 3000)
 
     server_url = f"http://{ip_address}:{port}"
 
